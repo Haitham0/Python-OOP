@@ -92,20 +92,19 @@ def managecorp():
         if option == 1:
             manual_Grow()
             print()
+            break
         elif option == 2:
             auto_Grow()
             print()
+            break
         elif option == 3:
             print(Crop.Report())
             print()
+            break
         elif option == 4:
             noexit = False
             print()
         print("Thank you for using the Crop Management program")
-
-
-
-
 
 
 def main():
